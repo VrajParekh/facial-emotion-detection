@@ -14,7 +14,7 @@ The provided Python code is a real-time facial emotion detection program that us
 
 6. The captured frame is then converted to grayscale using cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY).
 
-7. The cv2.CascadeClassifier object is used to detect faces in the grayscale image. The Haar cascade classifier haarcascade_frontalface_default.xml is used for face detection.
+7. The cv2.CascadeClassifier object is used to detect faces in the grayscale image. The Haar cascade classifier haarcascade_frontalface_default.xml (from this url: https://github.com/oarriaga/face_classification/blob/master/trained_models/emotion_models/fer2013_mini_XCEPTION.102-0.66.hdf5 )is used for face detection.
 
 8. The detectMultiScale() function is called with parameters for scale factor, minimum neighbors, and minimum size to detect the faces in the frame.
 
